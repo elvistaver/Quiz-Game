@@ -29,6 +29,7 @@ func main() {
 		return
 	}
 	fmt.Println("👨‍💻Questions:(choose the correct answer: Dont cheat👀)")
+	fmt.Println()
 	fmt.Print("1.what is the square root of 100?")
 	fmt.Println("(a)1000", "(b)10", "(c)50")
 	var answer string
