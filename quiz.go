@@ -89,14 +89,14 @@ func main() {
 	}
 	fmt.Println("_______________________")
 	fmt.Printf("scores:= %d/5\n", scores)
-	fmt.Printf("percent:= %2.f%% \n", (float64(scores)/float64(numberq))*100)
+	fmt.Printf("percentage:= %2.f%% \n", (float64(scores)/float64(numberq))*100)
 
 	if scores > 3 {
 		fmt.Println("💥weldone", name, lname)
 	} else if scores >= 1 && scores <= 3 {
 		fmt.Println("😴work hard ", name, lname)
 	} else {
-		fmt.Println("you are playing too much", name, lname)
+		fmt.Println("😡you are playing too much", name, lname)
 	}
 	fmt.Println("_______________________")
 }
