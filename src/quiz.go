@@ -99,6 +99,5 @@ func main() {
 	} else {
 		fmt.Println("😡you are playing too much", name, lname)
 	}
-	fmt.Println("_______________________")
-	
+	fmt.Println("_______________________")	
 }
